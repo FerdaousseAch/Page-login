@@ -1,0 +1,55 @@
+body {
+    margin: 0%;
+}
+
+.main {
+    margin: 5px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+body>.main>img {
+    width: 50%;
+    height: 100vh;
+}
+
+label,
+input,
+button,
+.main>.form>form>a {
+    display: block;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+body>.main>.form>form>button {
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+}
+
+#email,
+#password {
+    width: 250px;
+    height: 20px;
+}
+
+.main form a {
+    display: block;
+    margin-top: 10px;
+    padding: 1px;
+    border: 0.5px solid black;
+    text-align: center;
+    display: none;
+}
